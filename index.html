@@ -2,14 +2,29 @@
 <html lang="en" class="dark">
   <head>
     <meta charset="UTF-8" />
+    <script>
+      if (
+        window.location.protocol === 'http:' &&
+        window.location.hostname !== 'localhost' &&
+        window.location.hostname !== '127.0.0.1'
+      ) {
+        window.location.replace(
+          'https://' +
+            window.location.host +
+            window.location.pathname +
+            window.location.search +
+            window.location.hash
+        )
+      }
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="WizardSign by OlsenAI — Financial operations and agreement signing, with clarity and control. Coming Soon."
+      content="Welcome to Wizard Sign — Document signing and agreement workflows. An OlsenAI.com product."
     />
-    <title>WizardSign — OlsenAI</title>
-    <script type="module" crossorigin src="/assets/index-Bv5rnGin.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-jvKEPlww.css">
+    <title>Wizard Sign — Coming Soon | An OlsenAI.com Product</title>
+    <script type="module" crossorigin src="/assets/index-C2yay_Uo.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BryoLFLA.css">
   </head>
   <body>
     <div id="app"></div>
